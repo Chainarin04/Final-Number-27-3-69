@@ -30,13 +30,6 @@ public class Number {
                 odd++;
         }
 
-        if (count == 0) {
-
-            System.out.println("ไม่มีข้อมูลตัวเลข");
-        } else {
-
-            double avg = (double) sum / count;
-
             System.out.println("\n--- สรุปผล ---");
             System.out.println("จำนวนตัวเลข: " + count + " ตัว");
             System.out.println("ผลรวม: " + sum);
